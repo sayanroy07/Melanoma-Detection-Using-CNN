@@ -11,35 +11,48 @@
 ## General Information
 A CNN model is to be built using number of images of Melanoma based cancers (learning data) that can help in designing an algorithm helpful in accurate primary diagnosis of different types of Melanoma (testing data). These type of applications are gaining increased traction from scientific and medical community as it can be of huge help in reducing the manual ambiguity in reading the images and can serve as an empirical tool for primary diagnosis. Images are sourced from International Skin Imaging Collaboration (ISIC). 
 
+**The data set contains the images classified under the following disease categories:**
+  1. Actinic keratosis
+  2. Basal cell carcinoma
+  3. Dermatofibroma
+  4. Melanoma
+  5. Nevus
+  6. Pigmented benign keratosis
+  7. Seborrheic keratosis
+  8. Squamous cell carcinoma
+  9. Vascular lesion
+
+The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed by the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
+
+**Project Pipeline**: 
+  1. Data Reading and understanding
+  2. Data Set Creation - Train and Test, with images resized to 180 X 180
+  3. Dataset visualization
+  4. Model Building and training
+  5. Choosing the appropriate data augmentation
+  6. Model training on augmented data
+  7. Handling class imbalances
+  8. Model training on rectified class imbalance data
+
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The training accuracy and the validation accuracy are pretty much close which is a sign of good fit.
+- Also the losses are quite close & similar jump can be observed between epochs 30-40, for accuracy & loss function, which is also a good sign & generalizes the algorithm better.
+- The Validation accuracy comes up to be 86% which is also quite good.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+## Libraries Used
+- tensorflow
+- keras
+- pathlib
+- matplotlib
+- numpy
+- pandas
+- seaborn
+- os
+- PIL
+- glob
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by 
+- Sayan Roy [sayanroy07@gmail.com]
+- Vivek Sharma [biotechno16@gmail.com]
