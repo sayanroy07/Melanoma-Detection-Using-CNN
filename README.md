@@ -1,22 +1,15 @@
-# Project Name
+# Melanoma detection using Convolutional Neural Network (CNN)
 > Melanoma is type of skin cancer, develop primarily in the cells (called melanocytes) that produce melanin pigment. Melanoma however can also be developed in eyes, but rarely inside the body.One of the common known reasons for melanoma is prolonged exposure to high amount of UV-radiations, but there are lot more underlying reasons as well ranging from genetic predisposition, epigenetics and many more under investigation. This type of cancer accounts for 75% skin cancer driven deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
 
 ## Table of Contents
-* [General Info] To build a Convolutional Neural Network based Deep Learning model which can accurately detect melanoma.
-* [Technologies Used] Python 
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+A CNN model is to be built using number of images of Melanoma based cancers (learning data) that can help in designing an algorithm helpful in accurate primary diagnosis of different types of Melanoma (testing data). These type of applications are gaining increased traction from scientific and medical community as it can be of huge help in reducing the manual ambiguity in reading the images and can serve as an empirical tool for primary diagnosis. Images are sourced from International Skin Imaging Collaboration (ISIC). 
 
 ## Conclusions
 - Conclusion 1 from the analysis
